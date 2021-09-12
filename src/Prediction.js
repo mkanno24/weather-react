@@ -47,7 +47,8 @@ export default function Prediction() {
             {" "}
             15
           </span>
-          <span className="unitMeasure" id="" className="float-right">
+          <span className="float-right" id=""
+           >
             °C{" "}
           </span>
         </div>
