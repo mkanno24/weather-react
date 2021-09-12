@@ -1,0 +1,31 @@
+.weatherSearch {
+  background: #f4f7f9;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+}
+
+.btn {
+  background-color: #114e60;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+}
+.btn:hover {
+  background-color: #325288;
+  filter: drop-shadow(1px 1px 1px #050505);
+  transition: all 22ms ease-in-out;
+}
+
+form {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid #f4eee8;
+}

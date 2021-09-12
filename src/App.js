@@ -1,23 +1,18 @@
-import './App.css';
-import Weather from "./Weather";
+import React from "react";
+import Search from "./Search";
+import Prediction from "./Prediction";
+import Footer from "./Footer";
+import "./styles.css";
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-       <h1>Hello Mika's world</h1>
-<Weather city="Paris" />
-
-     
-
-      </header>
-
-          </div>
-
-
+      <div className="mikaWeatherApp">
+        <Search />
+        <Prediction />
+        <div className="weatherForecast" id="weatherForecast"></div>
+        <Footer />
+      </div>
+    </div>
   );
 }
-
-export default App;

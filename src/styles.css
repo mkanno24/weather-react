@@ -1,0 +1,48 @@
+body {
+  background: #f4eee8;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  color: #114e60;
+  font-size: 18px;
+}
+
+h1 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+a {
+  color: #325288;
+}
+a:hover {
+  color: #114e60;
+  font-weight: bolder;
+}
+
+.weatherForecast {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.weatherForecastDay {
+  opacity: 0.6;
+}
+
+.forecastTemperature-max {
+  font-size: 14px;
+  opacity: 0.9;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.forecastTemperature-min {
+  font-size: 14px;
+  opacity: 0.6;
+}

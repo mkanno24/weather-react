@@ -1,0 +1,40 @@
+.mikaWeatherApp {
+  display: block;
+  margin: auto;
+  background: #fff;
+  max-width: 690px;
+  border-radius: 14px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tempDisplayClass {
+  font-size: 70px;
+  padding: 5px;
+}
+.unitMeasure {
+  font-size: 25px;
+  float: right;
+  padding-top: 20px;
+  padding-right: 90px;
+  padding-left: 0px;
+  opacity: 0.6;
+}
+
+#temperatureIcon {
+  padding-bottom: 40px;
+}
+
+.listHumidity,
+.listWind {
+  font-weight: 800;
+  color: black;
+}
+
+.weatherMeasure {
+  text-transform: capitalize;
+  opacity: 0.6;
+}
